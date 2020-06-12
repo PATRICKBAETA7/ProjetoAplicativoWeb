@@ -20,13 +20,14 @@ namespace ProjetoAplicativoWeb.Controllers
         [HttpPost]
         public IActionResult Cadastro(string nome, string email) {
 
-            if (nome != "" && email != "") {
+            if (nome != null && email != null) {
 
-
+                Models.InsercaoUsuario.InsereUsuario(nome, email);
 
             }
-
+            
             return View();
+            
         }
     }
 }
