@@ -5,7 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\.vs\ProjectSettings.json" />
+    <Content Include="wwwroot\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\.vs\slnx.sqlite" />
+    <None Include="wwwroot\.vs\startbootstrap-landing-page-gh-pages\config\applicationhost.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\.vs\startbootstrap-landing-page-gh-pages\v16\" />
   </ItemGroup>
 
 </Project>

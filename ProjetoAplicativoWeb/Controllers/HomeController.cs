@@ -12,5 +12,21 @@ namespace ProjetoAplicativoWeb.Controllers
         {
             return View();
         }
+        public IActionResult Cadastro() {
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastro(string nome, string email) {
+
+            if (nome != "" && email != "") {
+
+
+
+            }
+
+            return View();
+        }
     }
 }
