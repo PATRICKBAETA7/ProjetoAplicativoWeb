@@ -7,10 +7,7 @@ using System.Data.SqlClient;
 namespace ProjetoAplicativoWeb.Models {
     public class Conexão {
 
-        public static SqlConnection Conectar() {
-
-            string conexao = 
-        }
+        
 
     }
 }
